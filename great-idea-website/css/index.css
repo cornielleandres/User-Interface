@@ -60,7 +60,86 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+body {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+header {
+	height: 50px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+}
+
+header nav a {
+	color: lightgrey;
+	text-decoration: none;
+	margin-right: 70px;
+}
+
+header img {
+	position: absolute;
+	right: 10%;
+}
+
+.top-img {
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+
+h1 {
+	font-size: 64px;
+}
+
+.call-to-action {
+	display: inline-block;
+	position: relative;
+	width: 45%;
+	text-align: center;
+	height: 45%;
+}
+
+.get-started {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 8px 24px 8px 24px;
+}
+
+.content-section {
+	display: inline-block;
+	width: 49%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.middle-img {
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.info-section {
+	display: inline-block;
+	width: 33%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.contact-section {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.copyright {
+	text-align: center;
+}
